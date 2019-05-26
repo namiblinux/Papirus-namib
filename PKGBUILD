@@ -5,7 +5,7 @@
 
 pkgname=papirus-icon-theme-namib
 pkgbase=papirus-icon-theme
-pkgver=20181120
+pkgver=20190521
 pkgrel=1
 pkgdesc="Papirus icon theme for Namib"
 arch=('any')
@@ -13,7 +13,7 @@ url="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme"
 license=("LGPL3")
 depends=('gtk-update-icon-cache')
 source=("$pkgbase-$pkgver.tar.gz::https://github.com/PapirusDevelopmentTeam/$pkgbase/archive/$pkgver.tar.gz")
-sha512sums=('430290d78a6f564eaab7a7a3a7b8fbe33c9ad14f69915f29b063c77e9452a1885e14d58dc472f347ed07da3fdd995e72528b65c3334bb7ba0e940a3da6e3f7dd')
+sha512sums=('d5c33ce976d426f8ebe250714a4a0fabe6c0202579b62d0444c3881dab80d468bd3f92632dd05b0aea570646fc330f5f3a67650482e2044c490622294e5c2adb')
 
 
 prepare() {
